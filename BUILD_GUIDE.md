@@ -1,4 +1,4 @@
-# TattooAI - React Native App Build Guide
+# InkSync - React Native App Build Guide
 
 ## 🚀 Quick Start
 
@@ -31,7 +31,7 @@ Make sure your `app.json` has the correct bundle identifier:
 {
   "expo": {
     "ios": {
-      "bundleIdentifier": "com.tattooai.app"
+      "bundleIdentifier": "com.inksync.app"
     }
   }
 }
@@ -67,7 +67,7 @@ npm run android
 ## 📁 Project Structure
 
 ```
-TattooAI/
+InkSync/
 ├── src/
 │   ├── components/          # Reusable UI components
 │   ├── screens/            # App screens

@@ -64,7 +64,7 @@ const HomeScreen: React.FC = () => {
         {/* Header */}
         <View style={styles.header}>
           <Text style={[styles.title, { color: theme.colors.text }]}>
-            TattooAI
+            InkSync
           </Text>
           <Text style={[styles.subtitle, { color: theme.colors.textSecondary }]}>
             Your AI-powered tattoo companion

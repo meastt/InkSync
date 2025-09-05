@@ -1,4 +1,4 @@
-# TattooAI - React Native App
+# InkSync - React Native App
 
 A professional iOS app for AI-powered tattoo design and try-on features, built with React Native and Expo.
 

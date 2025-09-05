@@ -10,7 +10,7 @@ export const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
     price: 4.99,
     period: 'weekly',
     credits: 30,
-    productId: 'com.tattooai.quickspark.weekly',
+    productId: 'com.inksync.quickspark.weekly',
     description: 'Perfect for trying out new designs',
     features: [
       '30 AI generations per week',
@@ -25,7 +25,7 @@ export const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
     price: 12.99,
     period: 'monthly',
     credits: 120,
-    productId: 'com.tattooai.deepdive.monthly',
+    productId: 'com.inksync.deepdive.monthly',
     description: 'For serious tattoo enthusiasts',
     features: [
       '120 AI generations per month',
@@ -344,9 +344,9 @@ export const initiateAppleIAP = async (productId: string): Promise<{ success: bo
     const transactionId = 'mock_transaction_' + Date.now();
     const expirationDate = new Date();
     
-    if (productId === 'com.tattooai.quickspark.weekly') {
+    if (productId === 'com.inksync.quickspark.weekly') {
       expirationDate.setDate(expirationDate.getDate() + 7);
-    } else if (productId === 'com.tattooai.deepdive.monthly') {
+    } else if (productId === 'com.inksync.deepdive.monthly') {
       expirationDate.setMonth(expirationDate.getMonth() + 1);
     }
     

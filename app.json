@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TattooAI",
-    "slug": "tattooai",
+    "name": "InkSync",
+    "slug": "inksync",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.meastt.tattooai",
+      "bundleIdentifier": "com.meastt.inksync",
       "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "This app needs access to camera to take photos for tattoo try-on features.",
@@ -28,7 +28,7 @@
         "backgroundColor": "#0f172a"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.meastt.tattooai",
+      "package": "com.meastt.inksync",
       "versionCode": 1,
       "permissions": [
         "android.permission.CAMERA",
